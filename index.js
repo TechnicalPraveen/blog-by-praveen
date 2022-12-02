@@ -24,8 +24,8 @@ mongoose
 
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
-app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
+app.use("/api/posts", postRoute);
 
 app.use(express.static(path.join(__dirname, "/client/build")));
 
